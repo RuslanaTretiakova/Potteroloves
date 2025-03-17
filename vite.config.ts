@@ -9,4 +9,7 @@ export default defineConfig({
       '@': fileURLToPath(new URL('./src', import.meta.url)),
     },
   },
+  define: {
+    __API_BASE_URL__: JSON.stringify(process.env.VITE_API_BASE_URL),
+  },
 });
