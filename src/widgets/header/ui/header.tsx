@@ -1,12 +1,18 @@
+import { Navigation } from '@/widgets/navigation/ui/Navigation';
+import LinkButton from '@/shared/ui/LinkButton';
+
 export const Header = () => {
   return (
     <>
       <header className="header">
         <>
           <div>
-            <h2 className="header__title">Potteroloves</h2>
+            <LinkButton to="/">
+              <h2 className="header__title">Potteroloves</h2>
+            </LinkButton>
           </div>
         </>
+        <Navigation />
       </header>
     </>
   );
