@@ -1,3 +1,5 @@
+import HouseList from '@/entities/houses';
+
 export const Houses = () => {
-  return <h3>houses page</h3>;
+  return <HouseList></HouseList>;
 };

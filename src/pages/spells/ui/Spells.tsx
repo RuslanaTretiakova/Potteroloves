@@ -1,3 +1,5 @@
+import SpellList from '@/entities/spells/ui';
+
 export const Spells = () => {
-  return <h3>Spells page</h3>;
+  return <SpellList />;
 };

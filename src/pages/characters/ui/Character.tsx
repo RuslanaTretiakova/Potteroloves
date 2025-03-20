@@ -1,3 +1,5 @@
+import { CharacterList } from '@/entities/characters/ui/CharacterList';
+
 export const Characters = () => {
-  return <h3>Characters</h3>;
+  return <CharacterList />;
 };
