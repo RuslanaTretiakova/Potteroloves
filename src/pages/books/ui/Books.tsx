@@ -1,3 +1,5 @@
+import BookList from '@/entities/books/ui';
+
 export const Books = () => {
-  return <h2>Books</h2>;
+  return <BookList />;
 };

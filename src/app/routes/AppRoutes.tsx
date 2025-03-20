@@ -4,7 +4,7 @@ import Layout from '../layout';
 import NotFound from '@/pages/not-found';
 import HomePage from '@/pages/home';
 import Books from '@/pages/books';
-import Spells from '@/pages/spells/insex';
+import Spells from '@/pages/spells';
 import Characters from '@/pages/characters';
 import Houses from '@/pages/houses/insex';
 
