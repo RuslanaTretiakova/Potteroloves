@@ -1,5 +1,5 @@
 import { Navigation } from '@/widgets/navigation/ui/Navigation';
-import LinkButton from '@/shared/ui/LinkButton';
+import LinkButton from '@/shared/ui/linkbutton';
 
 export const Header = () => {
   return (

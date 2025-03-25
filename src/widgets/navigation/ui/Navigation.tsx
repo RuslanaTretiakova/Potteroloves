@@ -1,4 +1,4 @@
-import LinkButton from '@/shared/ui/LinkButton';
+import LinkButton from '@/shared/ui/linkbutton';
 import { items } from '../model/model';
 
 export const Navigation = () => {

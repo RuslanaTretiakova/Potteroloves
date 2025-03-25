@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 
 import Layout from '../layout';
 import NotFound from '@/pages/not-found';
@@ -10,18 +10,16 @@ import Houses from '@/pages/houses/insex';
 
 const AppRoutes = () => {
   return (
-    <Router>
-      <Routes>
-        <Route path="/" element={<Layout />}>
-          <Route index element={<HomePage />} />
-          <Route path="/books" element={<Books />} />
-          <Route path="/characters" element={<Characters />} />
-          <Route path="/spells" element={<Spells />} />
-          <Route path="/houses" element={<Houses />} />
-          <Route path="*" element={<NotFound />} />
-        </Route>
-      </Routes>
-    </Router>
+    <Routes>
+      <Route path="/" element={<Layout />}>
+        <Route index element={<HomePage />} />
+        <Route path="/books" element={<Books />} />
+        <Route path="/characters" element={<Characters />} />
+        <Route path="/spells" element={<Spells />} />
+        <Route path="/houses" element={<Houses />} />
+        <Route path="*" element={<NotFound />} />
+      </Route>
+    </Routes>
   );
 };
 
